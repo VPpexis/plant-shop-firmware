@@ -1,0 +1,19 @@
+# Local device and cloud configuration
+**/secrets.h
+**/secrets.local.h
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*service-account*.json
+
+# Build products and editor files
+.pio/
+build/
+*.elf
+*.hex
+*.bin
+.DS_Store
+.vscode/
+.idea/
